@@ -12,8 +12,6 @@ Exec {
 
 node default {
 
-    class {'setup':}->
-    class {'mongodb':}->
-    class {'php':}
+    Class['setup'] -> Class['mongodb'] -> Class['php']
 
 }
