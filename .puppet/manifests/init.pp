@@ -12,6 +12,10 @@ Exec {
 
 node default {
 
+    include setup
+    include mongodb
+    include php
+
     Class['setup'] -> Class['mongodb'] -> Class['php']
 
 }
