@@ -1,5 +1,10 @@
 # Ensure certain packages are installed
 class setup::packages {
+    
+    exec { 'Update Apt for Packages':
+        command => 'apt-get update',
+    }
+
     package { [
             "build-essential",
             "vim",
@@ -17,7 +22,10 @@ class setup::packages {
             "php5-mcrypt",
             "php5-mhash",
             "php5-memcached",
+            "mongodb-10gen",
         ]:
-        ensure => "installed",
+        ensure  => "installed",
+        require => Exec['Update Apt for Packages'],
     }
+
 }

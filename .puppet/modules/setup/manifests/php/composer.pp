@@ -1,8 +1,5 @@
 # Install Composer
-class php::composer {
-    
-    # Dependency declarations
-    Exec['Download Composer'] -> Exec['Install Composer']
+class setup::php::composer {
 
     exec { "Download Composer":
         command => "curl -sS https://getcomposer.org/installer | php",
@@ -10,6 +7,7 @@ class php::composer {
 
     exec { "Install Composer":
         command => "mv composer.phar /usr/local/bin/composer",
+        require => Exec['Install Composer'],
     }
 
 }
