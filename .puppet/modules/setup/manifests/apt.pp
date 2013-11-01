@@ -4,11 +4,15 @@ class setup::apt {
     exec { "apt-get update": }
 
     exec { "apt-get install python-software-properties":
-        command => "apt-get -q -y --force-yes install python-software-properties",
+        command => "apt-get -q -y --force-yes install python-software-properties python g++ make software-properties-common",
         require => Exec['apt-get update'],
     }
 
-    exec { "add-apt-repository ppa:ondrej/php5 && apt-get update":
+    exec { "add-apt-repository -y ppa:ondrej/php5":
+        require => Exec['apt-get install python-software-properties'],
+    }
+
+    exec { "add-apt-repository -y ppa:chris-lea/node.js":
         require => Exec['apt-get install python-software-properties'],
     }
 
