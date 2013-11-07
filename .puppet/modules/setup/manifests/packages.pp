@@ -22,8 +22,11 @@ class setup::packages {
             "php5-mcrypt",
             "php5-mhash",
             "php5-memcached",
+            "php5-mysqlnd",
+            "mysql-server",
             "mongodb-10gen",
             "nodejs",
+            "memcached",
         ]:
         ensure  => "installed",
         require => Exec['Update Apt for Packages'],
