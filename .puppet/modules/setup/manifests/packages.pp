@@ -23,6 +23,7 @@ class setup::packages {
             "php5-mhash",
             "php5-memcached",
             "php5-mysqlnd",
+            "php5-json",
             "mysql-server",
             "mongodb-10gen",
             "nodejs",
