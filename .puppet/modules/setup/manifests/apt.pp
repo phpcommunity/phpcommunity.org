@@ -16,6 +16,10 @@ class setup::apt {
         require => Exec['apt-get install python-software-properties'],
     }
 
+    exec { "add-apt-repository -y ppa:git-core/ppa":
+        require => Exec['apt-get install python-software-properties'],
+    }
+
     exec { "apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10": }
 
     file { "MongoDB Source File":
