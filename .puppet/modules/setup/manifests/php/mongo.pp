@@ -1,14 +1,15 @@
 # Install Mongo extension
 class setup::php::mongo {
 
-    exec { "pecl install mongo": }
+    exec { "pecl install mongo": 
+        unless => "pecl list | grep mongo",
+    }
 
     file { "Mongo Config":
         ensure  => "present",
         path    => "/etc/php5/mods-available/mongo.ini",
         replace => "no",
         content => "extension=mongo.so\n",
-        require => Exec['pecl install mongo'],
     }
 
     file { "Mongo Symlink PHP CLI":
