@@ -1,11 +1,11 @@
 Vagrant.configure("2") do |config|
 
     config.vm.box = "precise64"
-    config.vm.network "private_network", ip: "192.168.42.101"
+    config.vm.network "private_network", ip: "192.168.42.106"
 
     config.vm.provider :virtualbox do |virtualbox|
         config.vm.box_url = "http://files.vagrantup.com/precise64.box"
-        virtualbox.customize ["modifyvm", :id, "--name", "myvm"]
+        virtualbox.customize ["modifyvm", :id, "--name", "phpcommunity-web"]
         virtualbox.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
         virtualbox.customize ["modifyvm", :id, "--memory", "1024"]
     end
