@@ -19,6 +19,7 @@ class setup::packages {
             "php5-xdebug",
             "php5-sqlite",
             "php5-gd",
+            "php5-intl",
             "php5-mcrypt",
             "php5-mhash",
             "php5-memcached",

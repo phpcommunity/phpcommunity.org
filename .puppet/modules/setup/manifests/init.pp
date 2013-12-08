@@ -7,6 +7,7 @@ class setup {
     Class['packages'] -> Class['php::date']
     Class['packages'] -> Class['php::composer']
     Class['packages'] -> Class['php::mongo']
+    Class['packages'] -> Class['php::xdebug']
     Class['apache'] -> Exec['Restart Apache']
 
     class {'apt':}
@@ -15,6 +16,7 @@ class setup {
     class {'php::date':}
     class {'php::composer':}
     class {'php::mongo':}
+    class {'php::xdebug':}
 
     exec {"Restart Apache":
         command => "/etc/init.d/apache2 restart",
