@@ -10,7 +10,7 @@ region: ams
 static_sites:
 - environment_slug: html
   github:
-    branch: master
+    branch: main
     deploy_on_push: true
     repo: phpcommunity/phpcommunity.org
   name: phpcommunity-org
