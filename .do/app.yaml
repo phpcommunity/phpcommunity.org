@@ -1,0 +1,18 @@
+domains:
+- domain: phpcommunity.org
+  type: PRIMARY
+  zone: phpcommunity.org
+- domain: www.phpcommunity.org
+  type: ALIAS
+  zone: phpcommunity.org
+name: phpcommunity-org
+region: ams
+static_sites:
+- environment_slug: html
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: phpcommunity/phpcommunity.org
+  name: phpcommunity-org
+  routes:
+  - path: /
