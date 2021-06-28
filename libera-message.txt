@@ -1,0 +1,65 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Hi,
+
+I’m following up on the status of this request. Please let me know if
+you have any questions, or if there’s anything I can do to help.
+
+I am sending this message from my phpcommunity.org email address, and I
+am signing it with my ben@benramsey.com, ramsey@php.net, and
+hello@phpcommunity.org keys.
+
+I used the same ramsey@php.net key to sign the following commit, so you
+can at least verify my association with the PHP project, even if the
+PHP Community Foundation is a separate entity.
+https://github.com/php/php-src/commit/ac82c0064048b3400aeddbf93dcfd75b656f32fe 
+
+Additionally, I have posted a copy of this signed message at:
+https://phpcommunity.org/libera-message.txt
+
+The fingerprints for each key are listed below. The public keys are
+available on most keyservers.
+
+ben@benramsey.com
+E85D 0311 DDFA 5BAC F3A6  10E7 B02D 9798 9C8C 071B
+
+ramsey@php.net
+39B6 4134 3D8C 104B 2B14  6DC3 F9C3 9DC0 B969 8544
+
+hello@phpcommunity.org
+9528 2757 936C B1F2 7815  8490 8114 CEB4 61A4 2E31
+
+Cheers,
+Ben
+-----BEGIN PGP SIGNATURE-----
+
+iHUEAREIAB0WIQToXQMR3fpbrPOmEOewLZeYnIwHGwUCYNkl6QAKCRCwLZeYnIwH
+G64kAP90y0cawBTgBKAWV/97MQ+obXzRWSrnJPXeSB9esTrUogD9HH/oVXqoIzHK
+gn2Jvj/QmxZZoW86pJedpstwp6b0MrWJAjMEAQEIAB0WIQQ5tkE0PYwQSysUbcP5
+w53AuWmFRAUCYNkl6QAKCRD5w53AuWmFRNprEAC2V8b9bVfcZ8BktlKNVEujUNWn
+BSCz9R+JRK7NwOeOdj5/LOWVCJWBM1lvYH+21llDXz2DYxssrW6JN16//Im4vTeZ
+Hiq74Itls9FcdPoq9sQcTZWgp7xB8khMlSRHTJVITgDPKzuDoCuDzrzVQxNrRROz
+pKGg3Ce1nJYNfVngyqm+vbSuCIgjcsjivUKpI5CiSwJPKvr3ZwL6I0xACfPEKYPW
+0Ksl3zz4ld+/7cAflttHVkDKMCd1BtC9S1TYmLQycIzWOrLJ6lsLA9PmL2bKU5i0
+2McVbBwqDd8+IA4AKuKRTApcC+uZ25wTOUMiul+nNFUJto029x3sPDMNzGykgr+2
++lQJmtiSphEwvRcTPijkUlddx+4Po9qKi+0tzLbPLFJcKQGlbTPYZnvaC6H+jjaF
+rHqZqKe35bFpFfvLjRkUpDuIvWV1KZvvI4lubF3+2X0VxNbWDSTqp7XTxA6X3/DS
+aPp28M/lcjjPpZM2QGXEmXiN2MKNUlthmb/RJXzoUAYhQMrXxcID/DJfAbYMibMY
+cd1yIFB2P8mIFYt92wcK+WmoCnDVh4zht4MVIRml95wbu4FPgayZvWTqp8zyjxrW
+QTbP+D+sFqVEfSXajeXM+NQNm43PFtQcVwvAJ3Tb4bMbv53lOSxq+IpjzNFmCSor
+1mE1ZxBQrmPbl0LD+4kCMwQBAQgAHRYhBJUoJ1eTbLHyeBWEkIEUzrRhpC4xBQJg
+2SXpAAoJEIEUzrRhpC4xiDIQAO02aVlX2W85H5dfVTBJ9k8gxa2tqR0BsuLU5pFb
+jy1ci04pJmIP05KEmORGiAftxdlqnnz+s0XQSoRGYXsKcG+Ms1lGKT29qT/6HYBT
+i+ej+FWCLiwQJIzxnI1QZJA2knk6w1cvAy3yXoARWhVKo8/XJHVvAxQY8RDSMfDm
+jktJIE37NG6TxreUTe8psVKQB9gYuBKYW6hC9WddDZvYb4zn+NSvAAnwgjqKLBZe
+2r/YkmI4K7AzWdcGnq6QQ5JAG3KcXF368jKnBBWk5kMip3InF0GC/qrkGTeNMFPV
+jKmXCKLh8hr6i3BHP9kOG+qfKVrmXm9bKY8ks0r94xvFOByt3/Aa0IKzZUDHzo9b
+Ekr7YWTjG4aOy98phROHhKNVWZ0DTMd4kGbB6P4DBRKmoQAmvrhMHIiburKZAT2+
+6QqfOJ2+BHb4vBd7Ddcr0/VDJEoHEoVK1rk3QM1mRvn8MO6i44aqq9I5qwdid0JN
+0xlKR6Jg7yA6POWbsiR1iRqTXa1RRif5Yl9NhIxsIKujqpKwKVwBTfsre9Zlq1DU
+nPehPnwRjFEdb3qScXQAGqNdwvSBc217sezbZViwOPWBvMiwu1+CMaCAxd/8p8PP
+HydCpuy1eEqKayYESGcFtioV+xfEv9sKZHh/SyV6gpTe95BuSarOpHnKzPkZKKAY
+ag1Z
+=9iZq
+-----END PGP SIGNATURE-----
