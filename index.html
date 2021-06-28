@@ -5,22 +5,25 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/manifest.json">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#8892bf">
 
         <title>PHP Community</title>
+
+        <link rel="me canonical" href="https://phpcommunity.org">
+        <link rel="me" href="https://github.com/phpcommunity">
+        <link rel="me" href="https://twitter.com/phpc">
+        <link rel="me" href="https://phpc.social/@phpc">
+        <link rel="pgpkey" type="application/pgp-keys" href="/pgp/95282757936CB1F2781584908114CEB461A42E31.pub.asc">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     </head>
 
-    <body>
+    <body class="h-card">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/">PHP Community</a>
+            <a class="p-name u-url u-uid navbar-brand" href="/">PHP Community</a>
             
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,19 +32,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://phpc.chat/channel/phpc">Chat</a>
+                        <a class="u-url nav-link" href="https://phpc.chat/channel/phpc">Chat</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://talk.phpcommunity.org">Discourse</a>
+                        <a class="u-url nav-link" href="https://talk.phpcommunity.org">Discourse</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://twitter.com/phpc">Twitter</a>
+                        <a class="u-url nav-link" rel="me" href="https://twitter.com/phpc">Twitter</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://phpc.social">Mastodon</a>
+                        <a class="u-url nav-link" rel="me" href="https://phpc.social/@phpc">Mastodon</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/phpcommunity">GitHub</a>
+                        <a class="u-url nav-link" rel="me" href="https://github.com/phpcommunity">GitHub</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" id="navbarPolicies" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -87,9 +90,15 @@
                     </p>
                 </div>
                 <div class="col-md-4" style="padding-top: 20px;">
-                    <img src="phpc-logo.svg" class="img-responsive" alt="PHPCommunity.org logo created by Peter Javanovic & Richard Davey (April 2004)" title="PHPCommunity.org logo created by Peter Javanovic & Richard Davey (April 2004)">
+                    <img src="phpc-logo.svg" class="u-logo img-responsive" alt="PHPCommunity.org logo created by Peter Javanovic & Richard Davey (April 2004)" title="PHPCommunity.org logo created by Peter Javanovic & Richard Davey (April 2004)">
                 </div>
             </div>
+        </div>
+
+        <div style="display: none;">
+            <span class="p-org">PHP Community Foundation, Inc.</span>
+            <span class="u-email">hello@phpcommunity.org</a>
+            <span class="p-nickname">phpc</span>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
